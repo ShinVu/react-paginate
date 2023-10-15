@@ -29,7 +29,7 @@ const PageView = (props) => {
     ariaLabel = props.ariaLabel || 'Page ' + page + ' is your current page';
 
     if (typeof pageClassName !== 'undefined') {
-      pageClassName =  activeClassName;
+      pageClassName = activeClassName;
     } else {
       pageClassName = activeClassName;
     }
