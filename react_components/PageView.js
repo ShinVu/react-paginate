@@ -36,7 +36,7 @@ const PageView = (props) => {
 
     if (typeof pageLinkClassName !== 'undefined') {
       if (typeof activeLinkClassName !== 'undefined') {
-        pageLinkClassName = pageLinkClassName + ' ' + activeLinkClassName;
+        pageLinkClassName = activeLinkClassName;
       }
     } else {
       pageLinkClassName = activeLinkClassName;
